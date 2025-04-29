@@ -11,7 +11,7 @@ public class Configuration {
         try (InputStream input = Configuration.class.getClassLoader().getResourceAsStream(CONFIG_FILE)) {
             if (input == null) {
                 System.err.println("Unable to load " + CONFIG_FILE);
-                return null;
+                //return null;
             }
             properties.load(input);
         } catch (IOException ex) {

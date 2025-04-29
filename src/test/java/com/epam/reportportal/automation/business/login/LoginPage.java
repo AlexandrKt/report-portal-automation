@@ -14,7 +14,7 @@ public class LoginPage {
     private final By loginButton = By.xpath("//button[@type='submit']");
 
     public void open() {
-        driver.get(Configuration.getProperty("reportportal.url") + "/ui/#login");
+        driver.get(Configuration.getProperty("reportportal.url") + "/contact-us/general");
     }
 
     public void enterUsername(String username) {

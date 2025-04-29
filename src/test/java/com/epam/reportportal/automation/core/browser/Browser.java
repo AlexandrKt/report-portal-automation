@@ -1,4 +1,5 @@
 package com.epam.reportportal.automation.core.browser;
+import com.epam.reportportal.automation.core.configuration.Configuration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
